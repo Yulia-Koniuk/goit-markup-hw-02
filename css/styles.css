@@ -9,6 +9,7 @@
     --color-dairy: #FCFCFC;
     --color-slate: #434455;
     --color-cloud: #F4F4FD;
+}
 
 /* BODY */
 body {
@@ -63,6 +64,9 @@ ol {
     color: var(--color-slate);
 }
 .header-contactitem:hover {
+    color: var(--color-ocean);
+}
+.header-contactitem:focus {
     color: var(--color-ocean);
 }
 
