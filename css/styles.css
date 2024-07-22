@@ -31,13 +31,10 @@ ol {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-}
-
-.headerlogo-web {
     color: #4D5AE5;
 }
 
-.headerlogo-web .headerlogo-studio {
+.headerlogo-studio {
     color: #2E2F42;
 }
 
@@ -100,9 +97,11 @@ h1 {
 .main-subtitle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 /* h3 */
@@ -125,7 +124,7 @@ h1 {
 }
 
 .team-list {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 /* h3 */
@@ -179,10 +178,6 @@ footer {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.footerlogo-web {
     color: #4D5AE5;
 }
 
