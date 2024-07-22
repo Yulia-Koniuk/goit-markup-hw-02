@@ -43,21 +43,15 @@ ol {
     color: #2E2F42;
 }
 
-.header-menuitem:hover .header-menuitem:focus {
+.header-menuitem:hover, .header-menuitem:focus {
     color: #404BBF;
-}
-
-#studio:active {
-    text-decoration: underline;
 }
 
 .header-contactitem {
     color: #434455;
 }
-.header-contactitem:hover {
-    color: #404BBF;
-}
-.header-contactitem:focus {
+
+.header-contactitem:hover, .header-contactitem:focus {
     color: #404BBF;
 }
 
@@ -88,8 +82,7 @@ h1 {
     cursor: pointer;
     } 
 
-.main-button:hover 
-.main-button:focus {
+.main-button:hover, .main-button:focus {
     background-color: #404BBF;
 }
 
@@ -115,23 +108,24 @@ h1 {
 }
 
 .feature-description {
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 /* 3 section */
 .main-team {
-    color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
 .team-list {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 /* h3 */
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
@@ -148,7 +142,7 @@ h1 {
 .portfolio-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-align: center;
