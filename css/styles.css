@@ -38,14 +38,17 @@ ol {
     color: #2E2F42;
 }
 
-.header-menuitem {
+.header-menulink {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.header-menuitem:hover, .header-menuitem:focus {
+.header-menuitem:hover {
+    color: #404BBF;
+}
+.header-menuitem:focus {
     color: #404BBF;
 }
 
@@ -53,7 +56,11 @@ ol {
     color: #434455;
 }
 
-.header-contactitem:hover, .header-contactitem:focus {
+.header-contactitem:hover {
+    color: #404BBF;
+}
+
+.header-contactitem:focus {
     color: #404BBF;
 }
 
