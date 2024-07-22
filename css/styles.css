@@ -45,22 +45,15 @@ ol {
     color: #2E2F42;
 }
 
-.header-menuitem:hover {
-    color: #404BBF;
-}
-.header-menuitem:focus {
+.header-menulink:hover, .header-menulink:focus {
     color: #404BBF;
 }
 
-.header-contactitem {
-    color: #434455;
+.header-contactlink {
+    letter-spacing: 0.02em;
 }
 
-.header-contactitem:hover {
-    color: #404BBF;
-}
-
-.header-contactitem:focus {
+.header-contactlink:hover, .header-contactlink:focus {
     color: #404BBF;
 }
 
